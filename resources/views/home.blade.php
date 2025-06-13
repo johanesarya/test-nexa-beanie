@@ -18,9 +18,21 @@
 
     @include('components.quote')
 
-    @include('components.shop')
+    @include('components.shop', ['products' => $products])
+
+    @include('components.comment')
+
+    @include('components.category', ['categories' => $categories])
+
+    @include('components.product', ['newArrivals' => $newArrivals, 'bestSelling' => $bestSelling])
+
+    @include('components.subscribe')
 
     @include('components.service')
+
+    @include('components.blog', ['blogs' => $blogs])
+
+    @include('components.post', ['posts' => $posts])
 
     @include('components.footer')
 </body>

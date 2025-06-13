@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 @import "tailwindcss";
 @source "../views";
 
@@ -12,4 +15,6 @@
     --color-soft-white: #FAF9F8;
     --color-golden-brown: #C2996F;
     --color-soft-brown: #362C27;
+    --font-Marcellus: "Marcellus", regular;
+    --font-OpenSans: "Open Sans", light;
 }
