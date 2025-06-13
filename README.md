@@ -6,10 +6,8 @@ Merupakan sebuah skill test dari NEXA yang dikerjakan oleh Johanes Arya Pramesta
 
 ## Tech Stack
 
-**Client:** TailwindCSS
-
 **Server:** Node
 
-**Framework:** Laravel 10
+**Framework:** Laravel 10, Tailwind
 
 **Database:** PostgreSQL
