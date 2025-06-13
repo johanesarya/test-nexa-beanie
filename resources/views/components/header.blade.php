@@ -1,7 +1,7 @@
 <!-- Header Section -->
 <header class="bg-md p-4 border-t border-b">
     <!-- Logo -->
-    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-2 pt-7 hidden md:block">
+    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y- pt-8 hidden md:block">
         <img src="{{ asset('images/logo.png') }}" alt="Beanie Logo" class="w-43 h-auto">
     </div>
 

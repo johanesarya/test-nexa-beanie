@@ -7,7 +7,7 @@
     <title>Beanie Coffee Shop</title>
     <link rel="icon" href="{{ asset('images/logo-2.png') }}" type="image/x-icon">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.iconify.design/2/2.0.0/iconify.min.js"></script>
     @vite('resources/css/app.css')
 </head>
 
@@ -17,6 +17,10 @@
     @include('components.hero')
 
     @include('components.quote')
+
+    @include('components.shop')
+
+    @include('components.service')
 
     @include('components.footer')
 </body>

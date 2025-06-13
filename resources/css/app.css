@@ -8,6 +8,7 @@
 }
 
 @theme {
+    --color-white-icon: #DDDAD5;
     --color-soft-white: #FAF9F8;
     --color-golden-brown: #C2996F;
     --color-soft-brown: #362C27;
